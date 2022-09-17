@@ -7,14 +7,14 @@ class getcharcount{
 
             for(char c:splitword){
                 if(newmap.containsKey(c)){
-                    newmap.put(c,newmap.get(c)+1);
+                    newmap.put(c,newmap.get(c)+1); 
                 }
                 else{
                     newmap.put(c,1);
                 }
             }
             System.out.println(word+ " : "+newmap);
-
+df
     }
     public static void main(String[] args){
         getCharCount("mithesh");
